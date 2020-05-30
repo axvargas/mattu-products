@@ -5,11 +5,35 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
+    "@firebase/analytics": "^0.3.5",
+    "@firebase/app": "^0.6.4",
+    "@firebase/app-types": "^0.6.1",
+    "@firebase/auth": "^0.14.6",
+    "@firebase/database": "^0.6.3",
+    "@firebase/firestore": "^1.14.5",
+    "@firebase/functions": "^0.4.44",
+    "@firebase/installations": "^0.4.10",
+    "@firebase/messaging": "^0.6.16",
+    "@firebase/performance": "^0.3.4",
+    "@firebase/polyfill": "^0.3.36",
+    "@firebase/remote-config": "^0.1.21",
+    "@firebase/storage": "^0.3.34",
+    "@firebase/util": "^0.2.47",
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.54",
+    "date-fns": "^2.14.0",
+    "firebase": "^7.14.5",
+    "firebase-admin": "^8.12.1",
     "next": "9.4.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-hook-form": "^5.7.2",
+    "uuid": "^8.1.0"
   }
 }
